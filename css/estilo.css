@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+/* Certifique-se de que o HTML e o body ocupem toda a altura da janela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuração do body para utilizar flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho ocupando 17% da altura do body */
+.cabeçalho_exterior {
+    background-color: rgb(36, 52, 68);
+    width: 100%;
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+
+     
+}
+
+.container_largo p{
+
+}
+
+
+.botão_home img {
+    position: absolute;
+    top: 1vmin; 
+    left: 1vmin; 
+    width: 1.5vmin;
+    height: 1.5vmin; 
+    margin-top: 0.3vmin;
+}
+
+
+.botão_entrar{
+    /*position: absolute;*/
+    width: 4.73vw;
+    height: 2.59vh;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    background-color: rgb(236, 4, 68);
+    border-radius: 50px;
+    color: rgb(256, 256, 256);
+    font-family:'Sora', sans-serif;
+    font-weight: 600; 
+    left: 47.65vw;
+    top: 1.75vh;
+    padding: 0.01vh;
+    font-size: 1.1vmin;
+   
+}
+
+.botão_entrar a{
+    color: #ffffff;
+}
+
+.botão_entrar a:hover{
+color: #000000;
+}
+
+
+.quadrado_branco1 {
+    background-color: white;
+    top:6.11vh ;
+    left:0vh;
+    width: 100%;
+    height: 8%vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.botao_sobre_nos{
+    background-color: rgb(236, 4, 68);
+    text-align: center;
+    /*position: absolute;*/
+    width: 4.79vw;
+    height: 2.31vh;
+   /* left: 47.60%;*/
+    /*top:10.00%;*/
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Sora',sans-serif;
+    font-weight: 1000;
+    padding: 0.01vh; 
+    font-size: 1vh;
+    
+}
+
+.botao_sobre_nos a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.botao_sobre_nos a:hover{
+    color: #000000;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo_biopark{
+    /*position: absolute;*/
+    width: 7.08vw;
+    height: 4.81vh;
+    /*left: 46.45%;*/
+    /*top:6.00%;*/
+
+}
+.logo_biopark img {
+    width: 100%; /* Ajusta a imagem para a largura da div */
+    height: 100%; /* Mantém a proporção da imagem */
+    
+}
+
+
+/* Main ocupando o restante da altura */
+main {
+    flex-grow: 1;               /* Força a main a ocupar todo espaço entre o header e o footer */
+    background-color: #121a2c;
+}
+
+.div_com_duas_divs{
+display: flex;
+}
+
+#conteiner_diferenciais_do_curso_superior{
+    width: 100vw;
+    height: 80vh;
+    
+
+
+
+}
+
+.main_centralizadora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#texto_diferenciais_do_curso{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.conteiner_diferenciais_do_curso_inferior{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado_diferenciais{
+    width: 25.5vh;
+    height: 18vh;
+    margin-right: 2vmin;
+    margin-left: 2vmin;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #4285f4;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.1vmin;
+
+}
+
+.titulo_quadrado_diferencial{
+font-size: 1.5vh;
+}
+
+
+
+
+
+
+.div1{
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top:15vh;
+    margin-right: 20vh;
+
+}
+.div2{
+    width: 70vmin;
+    height: 60vmin;
+    margin-top:15vh;
+    margin-right: 10vw;
+}
+
+.quadrado_da_sobre_nós_direita{
+    background-color: #4285f4;
+    height: 15.62vh;
+    width: 18.51vw;
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18.51vw;
+    font-size: 1vmin;
+    
+
+
+    
+}
+
+.quadrado_da_sobre_nós_esquerda{
+    background-color: #4285f4;
+    height: 15.62vh;
+    width: 17.0vw;
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vmin;
+
+    
+    
+}
+
+.quadrado_da_sobre_nós_direita p{
+    padding-top: 2vh;
+    color: white;
+    font-family: 'Sora',sans-serif;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    margin: 0;
+    font-size: 1.2vmin;
+    display: flex;
+}
+
+.quadrado_da_sobre_nós_esquerda p{
+    padding-top: 2vh;
+    color: white;
+    font-family: 'Sora',sans-serif;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    margin: 0;
+    font-size: 1.2vmin;
+    display: flex;
+}
+
+
+.titulo_roxo{
+    font-size: 2vh;
+    color:#8b00ea;
+    font-family: 'Sora',sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.titulo_branco1{
+    font-size: 2.0vh;
+    color:#ffffff;
+    font-family: 'Sora',sans-serif;
+    font-weight: 400;
+
+}
+
+.textão_kkk{
+    font-size: 1.3vmin;
+    color:#ffffff;
+    font-family: 'Sora',sans-serif;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    margin: 0;
+
+}
+#foto_shreck{
+    width: 100%;
+
+}
+
+.titulo_roxo::before { /*blur no roxo*/
+    content: ''; /* Adiciona o conteúdo ao pseudo-elemento */
+    position: absolute; /* Posicionamento absoluto */
+    top: 0; /* Alinha o elemento superiormente */
+    left: 0; /* Alinha o elemento à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-image: url(sua-imagem-de-fundo.jpg); /* Imagem de fundo */
+    filter: blur(10px); /* Aplica o efeito de desfoque */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do texto */
+    background-color: #8b00ea;
+}
+
+.quadrado_branco2{
+    background-color: white;
+    top:6.11vmin ;
+    left:0vh;
+    width: 100%;
+    height: 8vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lista_antes_footer{
+    list-style: none;
+    top: 85vh;
+    display: flex;
+    background-color: #ffffff;
+    font-size: 1vh;
+    font-family: 'Sora',sans-serif;
+
+}
+.lista_antes_footer li{
+    margin-left: 3vh;
+    margin-top: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista_antes_footer li a{
+    color: #808080;
+    text-decoration: none;
+}
+
+.lista_antes_footer li a:hover{
+    color: rgb(236, 4, 68);
+    text-decoration: underline;
+    background-color: rgb(160, 145, 160);
+}
+
+
+.footera {
+    background-color: rgb(36, 52, 68);
+    width: 100%;
+    display: flex;
+    height: 5%;
+    align-items: center;  
+    justify-content: center;  
+    top:100%;
+    font-size: 2vh;
+    font-family: 'Sora', sans-serif;
+    color:#32495f;
+
+}
+
+#icone_insta{
+    width: 1.56vw;
+    height: 2.77vh;
+
+}
+
+#Linkedin{
+    width: 1.56vw;
+    height: 2.77vh;
+}
+#Facebook{
+    width: 1.56vw;
+    height: 2.77vh;
+}
+#Youtube{
+    width: 1.56vw;
+    height: 2.77vh;
+}
+
+#botão_inscreva-se{
+    background-color: rgb(236, 4, 68);
+    border-radius: 50px;
+    padding: 1vh;
+    font-size: 2vh;
+    font-family: 'Sora',sans-serif;
+    color: white;
+    font-weight: 720;
+}
+#botão_inscreva-se a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#botão_inscreva-se a :hover{
+
+    color: black;
+}
+
+
+.container_largo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.container_largo div{
+    display: flex;
+    margin: 3vmin;
+    background-color: #000000;
+    border-radius: 50px;
+    width: 30vmin;
+    height: 25vmin;
+    text-align: center;
+    font-family: 'Sora',sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vmin;
+    flex-direction: column;
+}
+
+.container_largo div p img{
+    width: 1.2vmin;
+    height: 1.2vmin;
+}
+
+.soon{
+    font-size: 30vmin;
+    font-family: 'Sora';
+}
