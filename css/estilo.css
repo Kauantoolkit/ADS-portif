@@ -187,6 +187,7 @@ display: flex;
 
 .titulo_quadrado_diferencial{
 font-size: 1.5vh;
+font-weight: 700;
 }
 
 
@@ -435,4 +436,45 @@ font-size: 1.5vh;
 .soon{
     font-size: 30vmin;
     font-family: 'Sora';
+}
+
+
+.container_metade_da_main{
+    width: 40%;
+    height: 95%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5vmin;
+    margin-right: 0.5vmin;
+    justify-content: space-evenly;
+
+
+
+}
+
+.main_centralizadora_horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+
+}
+
+.container_metade_da_main div p{
+margin-bottom: 1vmin;
+overflow: auto;
+font-size: 2.5vmin;
+font-family: 'Sora', sans-serif;
+color:#ffffff;
+}
+
+.container_metade_horizonal_container{
+    height: 45%;
+    margin: 2.5%;
+}
+
+.container_metade_horizonal_container img{
+    height: 90%;
+    width: 90%;
 }
