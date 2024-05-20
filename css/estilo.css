@@ -172,8 +172,8 @@ display: flex;
 }
 
 .quadrado_diferenciais{
-    width: 25.5vh;
-    height: 18vh;
+    width: 35.5vmin;
+    height: 22vmin;
     margin-right: 2vmin;
     margin-left: 2vmin;
     color: #ffffff;
@@ -181,12 +181,13 @@ display: flex;
     background-color: #4285f4;
     border-radius: 50px;
     text-align: center;
-    font-size: 1.5vmin;
+    font-size: 2vmin;
+    overflow: auto;
 
 }
 
 .titulo_quadrado_diferencial{
-font-size: 1.5vmin;
+font-size: 1.7vmin;
 font-weight: 700;
 }
 
