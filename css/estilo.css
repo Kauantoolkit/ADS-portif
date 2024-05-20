@@ -246,6 +246,11 @@ font-weight: 700;
     
 }
 
+.quadrado_da_sobre_nós_esquerda p{
+    overflow: auto;
+    overflow: scroll;
+}
+
 .quadrado_da_sobre_nós_direita p{
     padding-top: 2vh;
     color: white;
